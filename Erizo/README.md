@@ -46,6 +46,37 @@ El sistema proporciona las siguientes funcionalidades principales:
 - Python 3.x
 - Instalar dependencias del proyecto con `pip install -r requirements.txt`
 
+# Descripción de las Rutas y Endpoints de la API
+
+La API proporciona una serie de endpoints para interactuar con los recursos disponibles. A continuación se detalla cada ruta junto con su función y parámetros:
+
+## Materias
+
+- **GET /materias/{id}**: Obtiene los detalles de una materia específica según su ID.
+- **POST /materias**: Crea una nueva materia.
+- **PUT /materias/{id}**: Actualiza los detalles de una materia existente según su ID.
+- **DELETE /materias/{id}**: Elimina una materia existente según su ID.
+
+## Estudiantes
+
+- **GET /estudiantes/{id}**: Obtiene los detalles de un estudiante específico según su ID.
+- **POST /estudiantes**: Crea un nuevo estudiante.
+- **PUT /estudiantes/{id}**: Actualiza los detalles de un estudiante existente según su ID.
+- **DELETE /estudiantes/{id}**: Elimina un estudiante existente según su ID.
+
+## Inscripciones
+
+- **GET /inscripciones/{id}**: Obtiene los detalles de una inscripción específica según su ID.
+- **POST /inscripciones**: Crea una nueva inscripción.
+- **PUT /inscripciones/{id}**: Actualiza los detalles de una inscripción existente según su ID.
+- **DELETE /inscripciones/{id}**: Elimina una inscripción existente según su ID.
+
+## Autenticación
+
+- **POST /token**: Obtiene un token de acceso para autenticar a un estudiante.
+
+Para más detalles sobre cómo interactuar con cada endpoint y los parámetros requeridos, consulte la documentación y ejemplos de cada endpoint.
+
 ## POSTMAN
 
 - https://documenter.getpostman.com/view/10600166/2sA2r6XjT8 
