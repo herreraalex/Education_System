@@ -46,6 +46,10 @@ El sistema proporciona las siguientes funcionalidades principales:
 - Python 3.x
 - Instalar dependencias del proyecto con `pip install -r requirements.txt`
 
+## POSTMAN
+
+- https://documenter.getpostman.com/view/10600166/2sA2r6XjT8 
+
 ## Uso
 
 1. Ejecutar la aplicación con `uvicorn main:app --reload`.
